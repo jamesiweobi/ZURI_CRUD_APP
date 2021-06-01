@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 // mongoose set up and database connection
 const connectionPath =
-  'mongodb+srv://jamesIweobi:killbill@cluster0.ysfmd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+  'mongodb+srv://------------:----------@cluster0.ysfmd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 router.use(express.json());
 mongoose.connect(
